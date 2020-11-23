@@ -1,19 +1,18 @@
 import { createGlobalStyle } from 'styled-components';
-// import EksellDisplayWeb from '../fonts/EksellDisplayWeb-Stencil.woff2';
 
 export default createGlobalStyle`
 html, body {
-  /* @font-face {
+   @font-face {
     font-family: 'EksellDisplayWeb-Stencil';
-    src: url(${EksellDisplayWeb}) format('woff2');
+    src: url('/fonts/EksellDisplayWeb/EksellDisplayWeb-Stencil.woff2') format('woff2');
     font-style: normal;
     font-display: swap;
-  } */
+  }
 
   margin: 0;
   padding: 0;
   background: rgba(0, 0, 0, 0.80);
-  font-family: "Roboto Regular", sans-serif;
+  font-family: "EksellDisplayWeb-Stencil", sans-serif;
   color: #fff;
   font-size: 90%;
 }
