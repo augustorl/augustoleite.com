@@ -2,6 +2,8 @@ import Head from "next/head";
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Form from '../components/Form';
+import ProjectSlider from '../components/ProjectSlider';
+
 
 
 
@@ -17,6 +19,7 @@ export default function Home() {
       />
       </Head>
       <Header/>
+      <ProjectSlider/>
       <Form/>
       <Footer/>
     </>
