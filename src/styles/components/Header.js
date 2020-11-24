@@ -62,6 +62,7 @@ export const Container = styled.div`
     padding: 0 2rem;
     display: flex;
     justify-content: space-between;
+    background: rgba(0,0,0, 0.8)
   }
   @media (max-width: 886px) {
      {
