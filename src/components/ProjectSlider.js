@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination } from 'swiper';
-import '../../node_modules/swiper/swiper-bundle.css';
+import "../../node_modules/swiper/swiper-bundle.css";
 // import { FormattedMessage } from 'react-intl';
 import { FaGithub, FaGlobe } from 'react-icons/fa';
 // import { Context } from '../../Wrapper';
@@ -28,7 +28,7 @@ function Swipper() {
       techs: [
         { tech: "/assets/Typescript_logo.svg" },
         { tech: "/assets/React_logo.svg" },
-        { tech: "/assets/Nodejs-logo.svg" },
+        { tech: "/assets/Nodejs_logo.svg" },
       ],
       demoURL: 'https://augustorl-gobarber.netlify.app/',
       codeURL: 'https://github.com/augustorl/gobarber',
@@ -59,7 +59,7 @@ function Swipper() {
       techs: [
         { tech: "/assets/Typescript_logo.svg" },
         { tech: "/assets/React_logo.svg" },
-        { tech: "/assets/Nodejs-logo.svg" },
+        { tech: "/assets/Nodejs_logo.svg" },
       ],
       aboutEnglish:
         'Happy is a full application with a web version, mobile, and its own API, the main goal is to help anyone who wants to visit orphanages to brighten up the childrens days to find these homes.',
@@ -73,7 +73,7 @@ function Swipper() {
       demoURL: 'https://augustorl-imagiflix.netlify.app/',
       codeURL: 'https://github.com/augustorl/imagiflix',
       techs: [        { tech: "/assets/HTML5_logo.svg" },
-      { tech: "/CSS3-logo.svg" },,],
+      { tech: "/assets/CSS3-logo.svg" },,],
       aboutEnglish:
         'Built using the TMDb API, Imagiflix is ​​a fictional website built based on the Netflix layout.',
       aboutPortuguese:
