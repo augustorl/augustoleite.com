@@ -8,16 +8,11 @@ html, body {
     font-style: normal;
     font-display: swap;
   }
-
-  margin: 0;
-  padding: 0;
-  background: rgba(0, 0, 0, 0.80);
-  font-family: "EksellDisplayWeb-Stencil", sans-serif;
-  color: #fff;
-  font-size: 90%;
 }
 
 * {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
