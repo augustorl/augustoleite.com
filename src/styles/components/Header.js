@@ -62,7 +62,6 @@ export const Container = styled.div`
     padding: 0 2rem;
     display: flex;
     justify-content: space-between;
-    background: rgba(0,0,0, 0.8)
   }
   @media (max-width: 886px) {
      {
@@ -78,28 +77,20 @@ export const Container = styled.div`
 `;
 
 export const HeaderPhoto = styled.div`
-  img {
-    display: block;
-    height: auto;
-  }
-  @media (max-width: 430px) {
-    img {
-      width: 100%;
-    }
-  }
+  width: 100%;
 `;
 
 export const HeaderText = styled.div`
    {
     z-index: 1;
-    padding-top: 130px;
+    padding-top: 110px;
     width: 100%;
-    margin-left: -70px;
+    margin-left: -220px;
   }
   h1 {
     padding: 0;
     color: #3bd783;
-    font-size: 4rem;
+    font-size: 3.5rem;
     letter-spacing: 0.4rem;
     font-family: 'EksellDisplayWeb-Stencil', serif;
     text-transform: uppercase;
