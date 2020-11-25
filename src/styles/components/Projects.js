@@ -30,6 +30,19 @@ export const ProjectContainer = styled.section`
   }
 `;
 
+
+export const ProjectInfo = styled.div`
+   {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center
+    align-items: center;
+  }
+`;
+
 export const TitleContainer = styled.div`
     {
     width: 100%;
@@ -38,12 +51,12 @@ export const TitleContainer = styled.div`
     padding: 2rem;
     display: flex;
     justify-content: space-between;
-  }
+    }
   h1 {
     color: rgba(0, 0, 0, 0.8);
     font-size: 30px;
     letter-spacing: 0.07rem;
-    font-family: 'EksellDisplayWeb-Stencil', serif;
+    font-family: 'EksellDisplayWeb-Stencil', serif !important;
     text-transform: uppercase;
     font-weight: 150;
     padding-top: 25px;
@@ -67,16 +80,4 @@ export const TitleContainer = styled.div`
     h1:after {
       display: none;
     }
-`;
-
-export const ProjectInfo = styled.div`
-   {
-    margin-top: 10px;
-    width: 100%;
-    max-width: 1220px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center
-    align-items: center;
-  }
 `;
