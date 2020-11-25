@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: rgba(0, 0, 0, 0.8);
+  background: #000;
   text-align: start;
   width: 100%;
 
@@ -19,7 +19,6 @@ export const Container = styled.div`
 
 
 export const SocialMobile = styled.div`
-  background-color: rgba(0, 0, 0, 0.8);
   display: none;
 
   svg:hover {
