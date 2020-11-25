@@ -1,0 +1,14 @@
+{
+  "header.title": "FrontEnd Developer",
+  "header.description": "Hey, you found me! I am a very passionate Frontend developer and clean code enthusiast from Florianopolis, Brazil. Whenever I'm building an application, I always make a true effort to understand my clients' needs so I can deliver the most incredible experience for users.",
+  "name.placeholder": "Name",
+  "message.placeholder": "Message",
+  "button.content": "Send",
+  "projects.header": "Projects",
+  "techs.title": "Technologies",
+  "contact.title": "Contact",
+  "swipper.description": "Description",
+  "swipper.demobadge": "Check Demo",
+  "swipper.codebadge": "Check Code",
+  "swipper.techs": "Technologies"
+}
