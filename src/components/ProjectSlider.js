@@ -102,8 +102,8 @@ function Swipper() {
               <Mockup>
                 <Image
                   alt="Foto do Projeto"
-                  height="380"
-                  width="545"
+                  height={380}
+                  width={545}
                   src={project.imgURL}
                 />
               </Mockup>
@@ -176,8 +176,8 @@ function Swipper() {
                         key={techs.tech}
                         src={techs.tech}
                         alt="Programming Language"
-                        width="60"
-                        height="60"
+                        width={60}
+                        height={60}
                       />
                     ))}
                   </TechImgs>

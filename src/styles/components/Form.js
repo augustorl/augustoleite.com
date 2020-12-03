@@ -143,15 +143,6 @@ export const ContactForm = styled.div`
     h1:after {
       display: none;
     }
-     {
-      width: 100%;
-      max-width: 1220px;
-      margin: 0 auto;
-      padding: 2rem;
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-    }
 
     ul {
       flex-direction: column;
