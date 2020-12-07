@@ -15,6 +15,7 @@ html, body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+  font-size: 90%;
 
   box-sizing: border-box;
 

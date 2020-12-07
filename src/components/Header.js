@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <header>
       <Nav>
-        <Image src="/assets/logo.png"alt="Logo Augusto Leite" height="50" width="50" />
+        <Image src="/assets/logo.png"alt="Logo Augusto Leite" height={90} width={90} />
         <LanguageButton>
           {/* <button type="button" onClick={context.selectLanguage} value="pt-BR">
             PT

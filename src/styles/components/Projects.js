@@ -9,6 +9,7 @@ export const ProjectContainer = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
     #main {
       background: none !important;
     }

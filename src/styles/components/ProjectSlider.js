@@ -153,6 +153,8 @@ export const Technologies = styled.div`
 
 export const TechImgs = styled.div`
   margin-top: 5px;
+  display: flex;
+  
 
   img,
   svg {
@@ -167,7 +169,6 @@ export const TechImgs = styled.div`
     svg {
       width: 30px;
       height: 30px;
-      margin: 0px 10px;
     }
   }
 `;

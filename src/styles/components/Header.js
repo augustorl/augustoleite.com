@@ -9,8 +9,6 @@ export const Nav = styled.div`
     display: flex;
   }
   img {
-    height: 75px;
-    width: 75px;
     margin-top: 15px;
   }
 
@@ -91,7 +89,7 @@ export const HeaderText = styled.div`
   h1 {
     padding: 0;
     color: #3bd783;
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     letter-spacing: 0.4rem;
     font-family: 'EksellDisplayWeb-Stencil', serif;
     text-transform: uppercase;
@@ -110,7 +108,7 @@ export const HeaderText = styled.div`
 
   h2 {
     font-size: 20px;
-    letter-spacing: 0.01rem;
+    letter-spacing: 0.1rem;
     color: white;
     text-transform: uppercase;
     line-height: 36px;
