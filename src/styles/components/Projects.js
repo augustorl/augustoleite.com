@@ -4,7 +4,6 @@ export const ProjectContainer = styled.section`
    {
     width: 100%;
     background: #3bd783;
-    color: rgba(0, 0, 0, 0.8);
     height: 100%;
     display: flex;
     flex-direction: column;

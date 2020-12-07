@@ -8,13 +8,14 @@ html, body {
     font-style: normal;
     font-display: swap;
   }
+  background: rgba(0,0, 0, 0.8);
 }
 
 * {
   font-family: "Roboto", sans-serif;
-  color: #fff;
   margin: 0;
   padding: 0;
+
   box-sizing: border-box;
 
   --swiper-theme-color: #fff;

@@ -78,6 +78,7 @@ export const Container = styled.div`
 
 export const HeaderPhoto = styled.div`
   width: 100%;
+  height: 100%;
 `;
 
 export const HeaderText = styled.div`
