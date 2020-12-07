@@ -7,11 +7,8 @@ export const Nav = styled.div`
     margin: 0 auto;
     padding: 0 3rem;
     display: flex;
+    padding-top: 15px;
   }
-  img {
-    margin-top: 15px;
-  }
-
   button {
     cursor: pointer;
   }
