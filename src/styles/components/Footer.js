@@ -4,6 +4,9 @@ export const Container = styled.div`
   background: #000;
   text-align: start;
   width: 100%;
+  a {
+    color: #fff;
+  }
 
   footer {
     width: 100%;
