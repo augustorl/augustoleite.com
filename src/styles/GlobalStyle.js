@@ -8,7 +8,7 @@ html, body {
     font-style: normal;
     font-display: swap;
   }
-  background: rgba(0,0, 0, 0.8);
+  background: rgba(0,0, 0, 0.9);
 }
 
 * {

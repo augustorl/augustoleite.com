@@ -12,11 +12,11 @@ export const Container = styled.div`
    {
     width: 100%;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
   }
   button {
     background-color: #3bd783;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.9);
     border-radius: 25px 25px 25px;
     margin-top: 15px;
     padding: 10px 10px 10px 10px;
@@ -43,7 +43,7 @@ export const ContactForm = styled.div`
     padding: 2rem;
     display: flex;
     justify-content: space-between;
-    background: rgba(0, 0, 0, 0.80);
+    background: rgba(0, 0, 0, 0.90);
   }
 
   h1 {
@@ -96,7 +96,7 @@ export const ContactForm = styled.div`
     border-radius: 25px 25px 25px;
     margin-bottom: 20px;
     border-color: rgba(255, 255, 255, 0.85);
-    background-color: rgba(0, 0, 0, 0.80);
+    background-color: rgba(0, 0, 0, 0.90);
     color: rgba(255, 255, 255, 0.85);
     outline: none;
     padding-left: 20px;
@@ -113,7 +113,7 @@ export const ContactForm = styled.div`
     border-radius: 15px 15px 15px;
     margin-bottom: 10px;
     border-color: rgba(255, 255, 255, 0.85);
-    background-color: rgba(0, 0, 0, 0.80);
+    background-color: rgba(0, 0, 0, 0.90);
     color: rgba(255, 255, 255, 0.85);
     outline: none;
     padding-left: 20px;
