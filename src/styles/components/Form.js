@@ -1,13 +1,5 @@
 import styled from 'styled-components';
-import { ErrorMessage } from 'formik';
 
-export const ErroredMessage = styled(ErrorMessage)`
-  margin-left: 12px;
-  color: #3bd783;
-  font-family: 'Roboto, sans-serif';
-  font-size: 12px;
-  font-weight: lighter;
-`;
 export const Container = styled.div`
    {
     width: 100%;
@@ -15,7 +7,7 @@ export const Container = styled.div`
     background-color: rgba(0, 0, 0, 0.9);
   }
   button {
-    background-color: #3bd783;
+    background-color: var(--primary-color);
     color: rgba(0, 0, 0, 0.9);
     border-radius: 25px 25px 25px;
     margin-top: 15px;
@@ -30,8 +22,13 @@ export const Container = styled.div`
     float: right;
     transition: all 0.5s ease-out;
     &:hover {
-      background-color: #22804e;
+      background-color: #3a689e;
     }
+  }
+
+  .error {
+    color: #fff;
+    margin: 10px;
   }
 `;
 
@@ -45,7 +42,12 @@ export const ContactForm = styled.div`
     justify-content: space-between;
     background: rgba(0, 0, 0, 0.90);
   }
-
+  @media(max-width: 1050px) {
+    justify-content: space-around;
+  }
+  @media(max-width: 600px) {
+    flex-direction: column;
+  }
   h1 {
     color: rgba(255, 255, 255, 0.9);
     font-size: 36px;
@@ -60,8 +62,8 @@ export const ContactForm = styled.div`
     display: block;
     width: 50px;
     height: 4px;
-    background-color: #3bd783;
-    margin: 0.9rem 0;
+    background-color: var(--primary-color);
+    margin: 0.4rem 0;
   }
   ul {
     display: flex;
@@ -87,22 +89,21 @@ export const ContactForm = styled.div`
     /* Microsoft Edge */
     color: rgba(255, 255, 255, 0.85);
   }
-
+  
   input {
     display: flex;
     height: 40px;
     width: 300px;
     border: 1px solid;
     border-radius: 25px 25px 25px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border-color: rgba(255, 255, 255, 0.85);
     background-color: rgba(0, 0, 0, 0.90);
     color: rgba(255, 255, 255, 0.85);
     outline: none;
     padding-left: 20px;
-
     &:focus{
-      border-color: #3db783;
+      border-color: #3a689e;
     }
   }
   textarea {
@@ -123,7 +124,12 @@ export const ContactForm = styled.div`
     font-family: 'Roboto';
 
       &:focus{
-      border-color: #3db783;
+      border-color: #3a689e;
+    }
+  }
+  @media(max-width: 1200px) {
+    textarea {
+      width: 35rem;
     }
   }
   @media (max-width: 400px) {
@@ -148,7 +154,7 @@ export const ContactForm = styled.div`
       flex-direction: column;
     }
     input {
-      width: 100%;
+      width: 80%;
       margin-bottom: 10px;
     textarea {
       width: 100%;
