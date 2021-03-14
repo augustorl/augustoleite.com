@@ -15,10 +15,12 @@ html, body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  font-size: 90%;
+
 
   box-sizing: border-box;
-
+  --gradient: #5390D9;
+  /* --gradient: linear-gradient( #5e60ce, #5390D9, #48BFE3, #64DFDF ); */
+  --primary-color: #5390D9;
   --swiper-theme-color: #fff;
   button {
     outline: none;
@@ -45,10 +47,10 @@ ul {
 }
 @media (max-width: 1092px) {
   html {
-    font-size: 62.5%;
+    font-size: 80%;
 }
 @media (max-width: 886px) {
   html {
-    font-size: 58%;
+    font-size: 50%;
   }
 `;

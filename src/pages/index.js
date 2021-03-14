@@ -5,8 +5,6 @@ import Form from '../components/Form';
 import Projects from '../components/Projects';
 
 
-
-
 export default function Home() {
   return (
     <>
