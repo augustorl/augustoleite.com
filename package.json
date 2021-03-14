@@ -7,8 +7,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@unform/core": "^2.1.6",
+    "@unform/web": "^2.1.6",
     "axios": "^0.21.0",
-    "formik": "^2.2.5",
     "next": "latest",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
