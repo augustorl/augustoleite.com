@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination } from 'swiper';
+import { Context } from '../components/Wrapper';
+import SwiperCore, { Navigation, Pagination} from 'swiper';
 import "../../node_modules/swiper/swiper-bundle.css";
-// import { FormattedMessage } from 'react-intl';
 import { FaGithub, FaGlobe } from 'react-icons/fa';
-// import { Context } from '../../Wrapper';
+
 import {
   Container,
   Mockup,
@@ -81,14 +81,17 @@ function Swipper() {
     },
   ];
 
-//   const context = useContext(Context);
+  const context = useContext(Context);
+
+  const translatedText = context.translation;
+  
+  const locale = context.locale;
 
   return (
     <>
       <Swiper
         preventClicks="false"
         preventClicksPropagation="false"
-        effect="cube"
         id="main"
         navigation
         pagination
@@ -120,12 +123,7 @@ function Swipper() {
                     <ProjectLink>
                       <FaGlobe />
                       <p>
-                        {/* {' '}
-                        <FormattedMessage
-                          id="swipper.demobadge"
-                          defaultMessage="Ver Demo"
-                        /> */}
-                        Ver Demo
+                      {translatedText.swipperDemobadge}
                       </p>
                     </ProjectLink>
                   </a>
@@ -139,36 +137,24 @@ function Swipper() {
                     <ProjectLink>
                       <FaGithub style={{ width: '21px', height: '21px' }} />
                       <p>
-                        {/* {' '}
-                        <FormattedMessage
-                          id="swipper.codebadge"
-                          defaultMessage="Ver Código"
-                        /> */}
-                        Ver Código
+                      {translatedText.swipperCodebadge}
                       </p>
                     </ProjectLink>
                   </a>
                 </ProjectLinks>
                 <Description>
-                  {/* {context.locale === 'en-US' ? (
+                  {locale === 'en' ? (
                     <div>
                       <p>{project.aboutEnglish}</p>
-                    </div>
-                  ) : ( */}
+                    </div>) : (
                     <div>
                       <p>{project.aboutPortuguese}</p>
                     </div>
-                  {/* )} */}
+                  )}
                 </Description>
                 <Technologies>
                   <h3>
-                    {/* {' '}
-                    <FormattedMessage
-                      id="swipper.techs"
-                      defaultMessage="Tecnologias"
-                    /> */}
-                    Tecnologias
-                    :
+                    {translatedText.swipperTechs}
                   </h3>
                   <TechImgs>
                     {project.techs.map(techs => (
