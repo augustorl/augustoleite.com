@@ -2,9 +2,9 @@ import React, { useContext } from 'react';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { IoIosPaper } from 'react-icons/io';
 import Image from 'next/image';
-// import { FormattedMessage } from 'react-intl';
-// import { LazyLoadImage } from 'react-lazy-load-image-component';
-// import { Context } from '../Wrapper';
+import { Context } from '../components/Wrapper';
+
+
 import {
   Nav,
   Container,
@@ -15,20 +15,23 @@ import {
 } from '../styles/components/Header';
 
 export default function Header() {
-//   const context = useContext(Context);
+  const context = useContext(Context);
+
+  const translatedText = context.translation;
 
   return (
     <header>
       <Nav>
-        <Image src="/assets/logo.png"alt="Logo Augusto Leite" height={90} width={90} />
+          <h4>A</h4>
+          <h4 className="L">L</h4>
         <LanguageButton>
-          {/* <button type="button" onClick={context.selectLanguage} value="pt-BR">
+          <button type="button" onClick={context.selectLanguage} value="pt">
             PT
           </button>
           <hr />
-          <button type="button" onClick={context.selectLanguage} value="en-US">
+          <button type="button" onClick={context.selectLanguage} value="en">
             EN
-          </button> */}
+          </button>
         </LanguageButton>
       </Nav>
       <Container>
@@ -37,26 +40,17 @@ export default function Header() {
             alt="Foto Augusto Leite"
             height={545}
             width={530}
-            src="/assets/photo-header.png"
+            src="/assets/photo-header1.png"
           />
         </HeaderPhoto>
         <HeaderText>
           <h2>
-            {/* <FormattedMessage
-              id="header.title"
-              defaultMessage="Desenvolvedor Front-end"
-            /> */}
-            Desenvolvedor Front-end
+            {translatedText.headerTitle}
           </h2>
           <h1>Augusto Leite</h1>
           <p>
-            {/* <FormattedMessage
-              id="header.description"
-              defaultMessage="Descrição"
-            /> */}
-            Sempre tive interesse em tecnologia tendo contato com computador desde criança. Sou um apaixonado por desenvolvimento e nos projetos em que participo prezo por códigos limpos e designs minimalistas que tornam a experiência do cliente e do usuário mais satisfatória.
+            {translatedText.headerDescription}
           </p>
-
           <SocialMedia>
             <a
               target="_blank"
@@ -70,7 +64,7 @@ export default function Header() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/augusto-leite-a3729412b/"
+              href="https://www.linkedin.com/in/augustorl/"
               name="linkedin"
               aria-label="linkedin"
             >
