@@ -20,7 +20,7 @@ export default function Footer() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/augusto-leite-a3729412b/"
+            href="https://www.linkedin.com/in/augustorl/"
             name="linkedin"
             alt="linkedin"
             aria-label="linkedin"
@@ -40,7 +40,7 @@ export default function Footer() {
         </SocialMobile>
       </div>
       <footer>
-        <p>augustoleite.com © 2020 Copyright.</p>
+        <p>augustoleite.com © 2021 Copyright.</p>
       </footer>
     </Container>
   );
