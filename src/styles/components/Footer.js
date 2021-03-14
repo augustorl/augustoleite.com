@@ -2,16 +2,22 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background: #000;
-  text-align: start;
+  text-align: center;
   width: 100%;
+  color: #fff;
+  font-size: 1rem;
   a {
     color: #fff;
+  }
+  p:hover {
+    color: var(--primary-color);
+    cursor: default;
   }
 
   footer {
     width: 100%;
     max-width: 1220px;
-    padding: 3rem;
+    padding: 2rem;
 
     @media (max-width: 866px) {
       font-size: 12px;
@@ -26,7 +32,7 @@ export const SocialMobile = styled.div`
 
   svg:hover {
     transform: translateY(-3px);
-    color: #3bd783;
+    color: var(--primary-color);
   }
 
   @media (max-width: 886px) {
