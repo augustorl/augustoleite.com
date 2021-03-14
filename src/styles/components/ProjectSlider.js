@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   margin: 0 auto;
-  background: #3bd783;
   display: flex;
   justify-content: space-around;
   flex-grow: none;
@@ -19,6 +18,7 @@ export const Mockup = styled.div`
   margin-left: 50px;
   img {
     max-width: 545px;
+    filter: drop-shadow(.6rem .6rem .6rem #3a689e)
   }
   display: flex;
   align-items: center;
@@ -64,7 +64,7 @@ export const Details = styled.div`
     width: 40px;
     height: 3px;
     background-color: rgba(255, 255, 255, 0.8);
-    margin: 0.6rem 0;
+    margin: 0.3rem 0;
     @media (max-width: 866px) {
       display: none;
     }
@@ -85,9 +85,9 @@ export const ProjectLinks = styled.div`
     text-decoration: none;
   }
   @media (max-width: 866px) {
-    max-width: 90px;
+    max-width: 100px;
     p {
-      font-size: 12px !important;
+      font-size: 10px !important;
     }
   }
   svg {
@@ -100,19 +100,19 @@ export const ProjectLink = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #3bd783;
-  margin: 7px 10px 10px 0px;
-  color: rgba(0, 0, 0, 0.8);
+  background-color: none;
+  margin: 0px 20px 15px 0px;
+  color: rgba(0, 0, 0, 0.7);
   border-radius: 20px 20px 20px;
   margin-top: 8px;
   padding: 6px;
-  width: 165px;
+  width: 145px;
   font-family: 'Roboto';
   font-weight: bolder;
   letter-spacing: 0.07rem;
   transition: all 0.5s ease-out;
   &:hover {
-    background-color: #2a9f60;
+    background-color: #3a689e;
     cursor: pointer;
   }
   p {
@@ -136,6 +136,7 @@ export const Description = styled.div`
 
 export const Technologies = styled.div`
   margin-top: 20px;
+  display: block;
   @media (max-width: 866px) {
     margin-left: 15px;
     display: flex;
@@ -147,7 +148,7 @@ export const Technologies = styled.div`
     height: 15px;
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 `;
 
@@ -161,6 +162,11 @@ export const TechImgs = styled.div`
     width: 60px;
     height: 60px;
     margin: 10px 20px;
+    transition: all ease-out 0.4s;
+
+    &:hover {
+      transform: translateY(-4px);
+    }
   }
 
   @media (max-width: 866px) {
