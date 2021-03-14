@@ -8,9 +8,31 @@ export const Nav = styled.div`
     padding: 0 3rem;
     display: flex;
     padding-top: 15px;
+    &:hover {
+      h4 {
+        color: #3a689e;
+        cursor: default;
+      }
+    }
+  }
+  h4 {
+    font-size: 3.8rem;
+    color: var(--primary-color);
+    font-family: 'EksellDisplayWeb-Stencil', serif;
+    text-transform: uppercase;
+    font-weight: 150;
+  }
+  h4.L {
+    padding-top: 25px;
   }
   button {
     cursor: pointer;
+  }
+
+  @media(max-width: 900px) {
+    h4.L {
+      padding-top: 15px;
+    }
   }
 
   @media (max-width: 866px) {
@@ -45,10 +67,11 @@ export const LanguageButton = styled.div`
     line-height: 36px;
     box-sizing: border-box;
     &:hover {
-      color: #3bd783;
+      color: #3a689e;
     }
   }
 `;
+
 export const Container = styled.div`
    {
     width: 100%;
@@ -57,6 +80,7 @@ export const Container = styled.div`
     padding: 0 2rem;
     display: flex;
     justify-content: space-between;
+    height: auto;
   }
   @media (max-width: 886px) {
      {
@@ -74,24 +98,35 @@ export const Container = styled.div`
 export const HeaderPhoto = styled.div`
   width: 100%;
   height: 100%;
+  
+  img {
+  width: 100%;
+  height: 100%;
+  margin-top: 15px !important;
+  }
 `;
 
 export const HeaderText = styled.div`
    {
     z-index: 1;
-    padding-top: 110px;
+    margin-top: 125px;
     width: 100%;
     margin-left: -220px;
   }
   h1 {
     padding: 0;
-    color: #3bd783;
-    font-size: 3.8rem;
+    color: var(--primary-color);
+    font-size: 3.6rem;
     letter-spacing: 0.4rem;
     font-family: 'EksellDisplayWeb-Stencil', serif;
     text-transform: uppercase;
     font-weight: 150;
     width: 100%;
+    &:hover {
+      color: #3a689e;
+      cursor: default;
+    }
+
   }
 
   h1::after {
@@ -100,15 +135,15 @@ export const HeaderText = styled.div`
     width: 50px;
     height: 4px;
     background-color: rgba(255, 255, 255, 0.9);
-    margin: 0.9rem 0;
+    margin: 0.4rem 0;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 1.3rem;
     letter-spacing: 0.1rem;
     color: white;
     text-transform: uppercase;
-    line-height: 36px;
+    line-height: 24px;
     margin: 0;
     box-sizing: border-box;
     font-weight: 200;
@@ -117,7 +152,7 @@ export const HeaderText = styled.div`
   p {
     color: white;
     margin-top: 20px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: lighter;
     font-family: 'Roboto';
     max-width: 555px;
@@ -132,11 +167,11 @@ export const HeaderText = styled.div`
       margin-bottom: 40px;
       margin-left: 5px;
       margin-right: 5px;
+      margin-top: 10px;
     }
     h1 {
       text-align: center;
       letter-spacing: 0.4rem;
-      font-size: 3rem;
       margin-bottom: 10px;
     }
     h1:after {
@@ -147,7 +182,7 @@ export const HeaderText = styled.div`
       text-align: center;
     }
     p {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       margin: 0 auto;
       text-align: left;
     }
@@ -159,22 +194,24 @@ export const SocialMedia = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    max-width: 570px;}
+    max-width: 570px;
+    margin-top: 10px;
+  }
 
     svg {
       display: flex;
       color: rgba(255, 255, 255, 0.9);
       text-decoration: none;
-      font-size: 45px;
-      margin: 1.5rem;
+      font-size: 50px;
+      margin: 1.7rem;
       margin-top: 20px;
     }
     svg {
-      transition: transform 0.25s;
+      transition: all ease 0.4s;
     }
     svg:hover {
-      transform: translateY(-2px);
-      color: #3bd783;
+      transform: translateY(-4px);
+      color: var(--primary-color);
     }
   }
   a {
