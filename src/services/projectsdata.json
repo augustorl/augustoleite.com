@@ -1,0 +1,60 @@
+[   
+     {
+      "id": "1",
+      "projectname": "GoBarber",
+      "imgURL": "/assets/project-bg.png",
+      "techs": [
+        { "tech": "/assets/Typescript_logo.svg" },
+        { "tech": "/assets/React_logo.svg" },
+        { "tech": "/assets/Nodejs_logo.svg" }
+      ],
+      "demoURL": "https://augustorl-gobarber.netlify.app/",
+      "codeURL": "https://github.com/augustorl/gobarber",
+      "aboutEnglish":
+        "GoBarber is a full application with a web version, mobile application, and its own API. The goal is to help beauty service professionals to make appointments with their respective clients.",
+      "aboutPortuguese":
+        "GoBarber é uma aplicação com versão web, aplicativo mobile e API própria. O objetivo é auxiliar os profissionais de serviços de beleza a marcarem horário com seus respectivos clientes."
+    },
+    {
+      "id": 2,
+      "projectname": "Old Pokedex",
+      "imgURL": "/assets/pokemon-bg.png",
+      "demoURL": "https://oldpokedex.netlify.app/",
+      "codeURL": "https://github.com/augustorl/oldpokedex",
+      "techs": [        { "tech": "/assets/Typescript_logo.svg" },
+      { "tech": "/assets/React_logo.svg" }],
+      "aboutEnglish":
+        "A web version of a Pokédex inspired by Pokemon GameBoy games from the 90s built with React and Typescript.",
+      "aboutPortuguese":
+        "A versão web de uma Pokédex construída com React e Typescript remetendo ao visual dos jogos de GameBoy dos anos 90."
+    },
+    {
+      "id": 3,
+      "projectname": "Happy",
+      "imgURL": "/assets/happy-bg.png",
+      "demoURL": "https://augustorl-happy.netlify.app",
+      "codeURL": "https://github.com/augustorl/happy",
+      "techs": [
+        { "tech": "/assets/Typescript_logo.svg" },
+        { "tech": "/assets/React_logo.svg" },
+        { "tech": "/assets/Nodejs_logo.svg" }
+      ],
+      "aboutEnglish":
+        "Happy is a full application with a web version, mobile, and its own API, the main goal is to help anyone who wants to visit orphanages to brighten up the childrens days to find these homes.",
+      "aboutPortuguese":
+        "Happy é uma aplicação com versão web, aplicativo mobile e API própria, o objetivo é auxiliar quem quer visitar orfanatos para alegrar o dia das crianças a encontrar esses lares."
+    },
+    {
+      "id": 4,
+      "projectname": "Imagiflix",
+      "imgURL": "/assets/imagiflix-bg.png",
+      "demoURL": "https://augustorl-imagiflix.netlify.app/",
+      "codeURL": "https://github.com/augustorl/imagiflix",
+      "techs": [        { "tech": "/assets/HTML5_logo.svg" },
+      { "tech": "/assets/CSS3-logo.svg" }],
+      "aboutEnglish":
+        "Built using the TMDb API, Imagiflix is ​​a fictional website built based on the Netflix layout.",
+      "aboutPortuguese":
+        "Construído utilizando a API TMDb, Imagiflix é um website fictício construído com base no layout da Netflix."
+    }
+]
