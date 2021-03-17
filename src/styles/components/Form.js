@@ -89,7 +89,9 @@ export const ContactForm = styled.div`
     /* Microsoft Edge */
     color: rgba(255, 255, 255, 0.85);
   }
-  
+  p {
+    color: var(--primary-color);
+  }
   input {
     display: flex;
     height: 40px;
