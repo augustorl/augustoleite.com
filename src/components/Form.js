@@ -1,18 +1,20 @@
 import React, { useState, useContext, useRef } from 'react';
-// import axios from 'axios';
+ import axios from 'axios';
 import { Context } from '../components/Wrapper';
 import Input from '../components/Input'
 import { Form, setErrors } from '@unform/web'
 import TextArea from '../components/Textarea'
 import * as Yup from 'yup';
+import api from '../services/api';
 import { Container, ContactForm } from '../styles/components/Form';
 
 // Recaptcha HTML 6LcEkMIUAAAAAB8PA3S9CAle8rF58B1EuT1s2HBO
 
 export default function MyForm() {
   const formRef = useRef(null);
+  const [mailIsSent, setMailIsSent] = useState(false);
 
-  async function handleSubmit(data) {
+  async function handleSubmit(data, { reset }) {
     try {
         formRef.current.setErrors({});
 
@@ -27,8 +29,13 @@ export default function MyForm() {
             abortEarly: false,
         })
 
+        await api.post("/api/email", data);
 
+        setMailIsSent(true);
+        
         console.log(data);
+
+        reset();
     } catch(err) {
         if(err instanceof Yup.ValidationError) {
             const errorMessages = {};
@@ -90,6 +97,9 @@ export default function MyForm() {
                     >
                       {translatedText.buttonContent}
                     </button>
+                    {mailIsSent && (
+                        <p>Seu e-mail foi enviado com sucesso.</p>
+                      )}
                   </li>
                 </ul>
             </Form>
