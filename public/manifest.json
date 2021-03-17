@@ -1,0 +1,9 @@
+{
+    "name": "augustoleite.com",
+    "short_name": "My portfolio",
+    "theme_color": "#5390d9",
+    "background_color": "#2196f3",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/"
+}
