@@ -102,7 +102,7 @@ export const ProjectLink = styled.div`
   justify-content: space-around;
   background-color: none;
   margin: 0px 20px 15px 0px;
-  color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 0.8);
   border-radius: 20px 20px 20px;
   margin-top: 8px;
   padding: 6px;

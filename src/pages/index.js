@@ -12,10 +12,12 @@ export default function Home() {
       <link
         rel="preload"
         href="/fonts/EksellDisplayWeb/EksellDisplayWeb-Stencil.woff2"
+        crossOrigin="anonymous"
         as="font"
-        crossOrigin=""
+        type="font/woff2"   
       />
-      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+      <link rel="preconnect" href="https://fonts.gstatic.com"/>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/> 
       <title>Home | augustoleite.com</title>
         <meta
           name="description"
