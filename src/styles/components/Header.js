@@ -80,7 +80,7 @@ export const Container = styled.div`
     padding: 0 2rem;
     display: flex;
     justify-content: space-between;
-    height: auto;
+    height: 540px;
   }
   @media (max-width: 886px) {
      {
@@ -91,6 +91,7 @@ export const Container = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      height: auto;
     }
   }
 `;
