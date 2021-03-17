@@ -80,7 +80,7 @@ export const Container = styled.div`
     padding: 0 2rem;
     display: flex;
     justify-content: space-between;
-    height: 540px;
+    height: 555px;
   }
   @media (max-width: 886px) {
      {
@@ -103,7 +103,7 @@ export const HeaderPhoto = styled.div`
   img {
   width: 100%;
   height: 100%;
-  margin-top: 15px !important;
+  margin-top: 25px !important;
   }
 `;
 
