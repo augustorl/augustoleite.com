@@ -73,7 +73,7 @@ export default function Header() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="http://augustoleite.com/curriculum_vitae.pdf"
+              href={translatedText.curriculumLink}
               name="curriculum"
               aria-label="curriculum"
             >
