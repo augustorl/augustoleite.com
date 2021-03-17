@@ -38,8 +38,8 @@ export default function Header() {
         <HeaderPhoto>
           <Image
             alt="Foto Augusto Leite"
-            height={545}
-            width={530}
+            height={525}
+            width={543}
             src="/assets/photo-header1.png"
           />
         </HeaderPhoto>
