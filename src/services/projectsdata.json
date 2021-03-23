@@ -1,6 +1,22 @@
 [   
-     {
-      "id": "1",
+  {
+    "id": 1,
+    "projectname": "Primos à Obra",
+    "imgURL": "/assets/primos-bg.png",
+    "demoURL": "https://primosaobra.com.br",
+    "codeURL": "https://github.com/augustorl",
+    "techs": [
+      { "tech": "/assets/React_logo.svg" },
+      { "tech": "/assets/nextjs_logo.svg" },
+      { "tech": "/assets/Nodejs_logo.svg" }
+    ],
+    "aboutEnglish":
+      "A fully responsive Website made for a painting and other home services company. Using NextJS i was able to optimize the performance bringing the application's SEO to a whole new level.",
+    "aboutPortuguese":
+      "Um site responsivo para uma empresa de pintura e outros serviços residenciais. Utilizei o NextJS como framework que me ajudou a otimizar a performance elevando a aplicação um nível a mais em relação ao SEO." 
+  },   
+  {
+      "id": "2",
       "projectname": "GoBarber",
       "imgURL": "/assets/project-bg.png",
       "techs": [
@@ -16,7 +32,7 @@
         "GoBarber é uma aplicação com versão web, aplicativo mobile e API própria. O objetivo é auxiliar os profissionais de serviços de beleza a marcarem horário com seus respectivos clientes."
     },
     {
-      "id": 2,
+      "id": 3,
       "projectname": "Old Pokedex",
       "imgURL": "/assets/pokemon-bg.png",
       "demoURL": "https://oldpokedex.netlify.app/",
@@ -27,22 +43,6 @@
         "A web version of a Pokédex inspired by Pokemon GameBoy games from the 90s built with React and Typescript.",
       "aboutPortuguese":
         "A versão web de uma Pokédex construída com React e Typescript remetendo ao visual dos jogos de GameBoy dos anos 90."
-    },
-    {
-      "id": 3,
-      "projectname": "Happy",
-      "imgURL": "/assets/happy-bg.png",
-      "demoURL": "https://augustorl-happy.netlify.app",
-      "codeURL": "https://github.com/augustorl/happy",
-      "techs": [
-        { "tech": "/assets/Typescript_logo.svg" },
-        { "tech": "/assets/React_logo.svg" },
-        { "tech": "/assets/Nodejs_logo.svg" }
-      ],
-      "aboutEnglish":
-        "Happy is a full application with a web version, mobile, and its own API, the main goal is to help anyone who wants to visit orphanages to brighten up the childrens days to find these homes.",
-      "aboutPortuguese":
-        "Happy é uma aplicação com versão web, aplicativo mobile e API própria, o objetivo é auxiliar quem quer visitar orfanatos para alegrar o dia das crianças a encontrar esses lares."
     },
     {
       "id": 4,
