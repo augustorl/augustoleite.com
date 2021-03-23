@@ -8,6 +8,8 @@ html, body {
     font-style: normal;
     font-display: swap;
   }
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background: rgba(0,0, 0, 0.9);
 }
 

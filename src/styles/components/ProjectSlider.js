@@ -135,7 +135,7 @@ export const Description = styled.div`
 `;
 
 export const Technologies = styled.div`
-  margin-top: 20px;
+  margin-top: 15px;
   display: block;
   @media (max-width: 866px) {
     margin-left: 15px;
@@ -148,27 +148,25 @@ export const Technologies = styled.div`
     height: 15px;
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 `;
 
 export const TechImgs = styled.div`
-  margin-top: 5px;
   display: flex;
   
-
+  
   img,
   svg {
-    width: 60px;
-    height: 60px;
-    margin: 10px 20px;
+    width: 40px;
+    height: 40px;
+    margin: 10px 40px;
     transition: all ease-out 0.4s;
 
     &:hover {
       transform: translateY(-4px);
     }
   }
-
   @media (max-width: 866px) {
     margin: 0;
     img,
