@@ -4,8 +4,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "export": "npm run build && next export -o _static"
+    "start": "next start"
   },
   "dependencies": {
     "@unform/core": "^2.1.6",
