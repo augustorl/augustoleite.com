@@ -38,7 +38,7 @@ That's when I decided to make my own version of Pokedex!
 Please feel free to check the [live demo](https://oldpokedex.netlify.app/) or see further information to run it locally.
 
 ### Live Demo
-[![Pokedex Screen Shot][pokedex-screenshot]](https://oldpokedex.netlify.app/)
+[![Pokedex Screen Shot][pokedex-screenshot]](https://augustoleite.com)
 
 Features:
 * Search Pokemons
@@ -48,8 +48,8 @@ Features:
 
 ### Built Using
 * [ReactJS](https://en.reactjs.org/)
-* [Typescript](https://www.typescriptlang.org/)
-* [PokéAPI](https://pokeapi.co/)
+* [Javascript]()
+* [NextJS](https://nextjs.org/)
 
 A list of other aditional resources that I used while building this application are listed in the acknowledgements.
 
@@ -76,7 +76,7 @@ yarn: Go to [Yarn website](https://classic.yarnpkg.com/en/docs/install) and sele
 
 1. Clone this repository.
 ```sh
-git clone https://github.com/augustorl/oldpokedex.git
+git clone https://github.com/augustorl/portfolio-nextjs.git
 ```
 2. Install NPM packages.
 ```sh
@@ -86,35 +86,6 @@ npm install or yarn
 ```sh
 npm run or yarn start
 ```
-<!-- CONTRIBUTING -->
-## Contributing
-
-Please feel free to contribute to my Pokedex! Any contributions you will be **greatly appreciated**.
-
-To do so:
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Augusto Leite - [Portfolio](https://augustoleite.com) - augustorldev@gmail.com
-
-Project Link: [https://github.com/augustorl/oldpokedex](https://github.com/augustorl/oldpokedex)
-
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
@@ -122,7 +93,6 @@ Project Link: [https://github.com/augustorl/oldpokedex](https://github.com/augus
 Libraries used:
 * [Axios](https://github.com/axios/axios)
 * [Yup](https://github.com/jquense/yup)
-* [Styled Components](https://styled-components.com/)
 * [Unform](https://unform.dev)
 
 
