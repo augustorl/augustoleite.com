@@ -81,6 +81,8 @@ Libraries used:
 * [Axios](https://github.com/axios/axios)
 * [Yup](https://github.com/jquense/yup)
 * [Unform](https://unform.dev)
+* [Styled Components]
+* [SwiperJS]
 
 
 
