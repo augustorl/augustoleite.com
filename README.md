@@ -23,9 +23,7 @@
 <br />
 <p align="center">
   <h3 align="center">Portfolio with NextJS.</h3>
-  <a>
   <img src="https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square">
-  </a> 
   <a href="https://linkedin.com/in/augustorl">
   <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555"></a>
   </p> 
