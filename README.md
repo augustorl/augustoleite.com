@@ -37,7 +37,7 @@ That's when I decided to make my own version of Pokedex!
 * [ReactJS](https://en.reactjs.org/)
 * [Javascript]()
 * [NextJS](https://nextjs.org/)
-* 
+
 ### Libraries used:
 * [Axios](https://github.com/axios/axios)
 * [Yup](https://github.com/jquense/yup)
