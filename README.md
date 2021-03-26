@@ -23,14 +23,13 @@
 <br />
 <p align="center">
   <h3 align="center">Portfolio with NextJS.</h3>
- </p>
- <p align="center>
+
   <img src="https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square">
   </a> 
   <a href="https://linkedin.com/in/augustorl">
   <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555"></a>
-  </p>
-<!-- ABOUT THE PROJECT -->
+  </p> 
+ <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 I always loved and enjoyed everything about Pokemon, especially the Gameboy saga. So when I was looking for a project to learn a bit more about using Typescript with React, I remembered how I always loved playing those games.
