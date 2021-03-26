@@ -37,9 +37,13 @@ That's when I decided to make my own version of Pokedex!
 * [ReactJS](https://en.reactjs.org/)
 * [Javascript]()
 * [NextJS](https://nextjs.org/)
-
-A list of other aditional resources that I used while building this application are listed in the acknowledgements.
-
+* 
+### Libraries used:
+* [Axios](https://github.com/axios/axios)
+* [Yup](https://github.com/jquense/yup)
+* [Unform](https://unform.dev)
+* [Styled Components]
+* [SwiperJS]
 
 
 <!-- GETTING STARTED -->
@@ -73,16 +77,6 @@ npm install or yarn
 ```sh
 npm run or yarn start
 ```
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-Libraries used:
-* [Axios](https://github.com/axios/axios)
-* [Yup](https://github.com/jquense/yup)
-* [Unform](https://unform.dev)
-* [Styled Components]
-* [SwiperJS]
 
 
 
