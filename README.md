@@ -22,10 +22,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/augustorl/old-pokedex">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-  <h3 align="center">Ashe Ketium's Old Pokédex.</h3>
+  <h3 align="center">Portfolio with NextJS.</h3>
   <p align="center">
   <a href="https://github.com/augustorl/oldpokedex/LICENSE.txt">
   <img src="https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square">
