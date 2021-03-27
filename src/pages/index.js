@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
+      <link rel="preconnect" href="https://fonts.gstatic.com"/>
       <link
         rel="preload"
         href="/fonts/EksellDisplayWeb/EksellDisplayWeb-Stencil.woff2"
@@ -16,7 +17,6 @@ export default function Home() {
         as="font"
         type="font/woff2"   
       />
-      <link rel="preconnect" href="https://fonts.gstatic.com"/>
       <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/> 
       <title>Home | augustoleite.com</title>
         <meta
