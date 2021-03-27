@@ -1,78 +1,99 @@
-# Example app with styled-components
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-This example features how you use a different styling solution than [styled-jsx](https://github.com/zeit/styled-jsx) that also supports universal styles. That means we can serve the required styles for the first render within the HTML and then load the rest in the client. In this case we are using [styled-components](https://github.com/styled-components/styled-components).
 
-For this purpose we are extending the `<Document />` and injecting the server side rendered styles into the `<head>`, and also adding the `babel-plugin-styled-components` (which is required for server side rendering). Additionally we set up a global [theme](https://www.styled-components.com/docs/advanced#theming) for styled-components using NextJS custom [`<App>`](https://nextjs.org/docs/advanced-features/custom-app) component.
 
-## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-styled-components)
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-styled-components with-styled-components-app
-# or
-yarn create next-app --example with-styled-components with-styled-components-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-### Try it on CodeSandbox
-
-[Open this example on CodeSandbox](https://codesandbox.io/s/github/vercel/next.js/tree/canary/examples/with-styled-components)
-
-### Notes
-
-When wrapping a [Link](https://nextjs.org/docs/api-reference/next/link) from `next/link` within a styled-component, the [as](https://styled-components.com/docs/api#as-polymorphic-prop) prop provided by `styled` will collide with the Link's `as` prop and cause styled-components to throw an `Invalid tag` error. To avoid this, you can either use the recommended [forwardedAs](https://styled-components.com/docs/api#forwardedas-prop) prop from styled-components or use a different named prop to pass to a `styled` Link.
-
-<details>
-<summary>Click to expand workaround example</summary>
+<!-- PROJECT LOGO -->
 <br />
+<p align="center">
+  <h3 align="center">My Portfolio - NextJS.</h3>
+  <img src="https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square">
+  <a href="https://linkedin.com/in/augustorl">
+  <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555"></a>
+  </p> 
+ <!-- ABOUT THE PROJECT -->
+## About The Project
 
-**components/StyledLink.js**
+I always loved and enjoyed everything about Pokemon, especially the Gameboy saga. So when I was looking for a project to learn a bit more about using Typescript with React, I remembered how I always loved playing those games.
+That's when I decided to make my own version of Pokedex! 
 
-```javascript
-import Link from 'next/link'
-import styled from 'styled-components'
+### Built Using
+* [ReactJS](https://en.reactjs.org/)
+* [Javascript]()
+* [NextJS](https://nextjs.org/)
 
-const StyledLink = ({ as, children, className, href }) => (
-  <Link href={href} as={as} passHref>
-    <a className={className}>{children}</a>
-  </Link>
-)
+### Libraries used:
+* [Axios](https://github.com/axios/axios)
+* [Yup](https://github.com/jquense/yup)
+* [Unform](https://unform.dev)
+* [Styled Components]
+* [SwiperJS]
 
-export default styled(StyledLink)`
-  color: #0075e0;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
 
-  &:hover {
-    color: #40a9ff;
-  }
+<!-- GETTING STARTED -->
+## Running Locally
 
-  &:focus {
-    color: #40a9ff;
-    outline: none;
-    border: 0;
-  }
-`
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* Choose npm or yarn. 
+
+npm:
+```sh
+npm install npm@latest -g
 ```
 
-**pages/index.js**
+yarn: Go to [Yarn website](https://classic.yarnpkg.com/en/docs/install) and select the correct guide for your operation system.
 
-```javascript
-import StyledLink from '../components/StyledLink'
+### Project Installation
 
-export default () => (
-  <StyledLink href="/post/[pid]" forwardedAs="/post/abc">
-    First post
-  </StyledLink>
-)
+
+1. Clone this repository.
+```sh
+git clone https://github.com/augustorl/portfolio-nextjs.git
+```
+2. Install NPM packages.
+```sh
+npm install or yarn
+```
+3. Run the App.
+```sh
+npm run or yarn start
 ```
 
-</details>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/augustorl
+[product-screenshot]: images/screenshot.png
+[professor-oak]: images/professoroak.png
+[pokedex-screenshot]: images/screenshot.png
