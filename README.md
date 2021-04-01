@@ -1,11 +1,9 @@
-<br />
-<p align="center">
-  <h3 align="center">My Portfolio - NextJS.</h3>
-  <img src="https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square">
-  <a href="https://linkedin.com/in/augustorl">
-  <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555"></a>
-  </p> 
- <!-- ABOUT THE PROJECT -->
+# @augustoleite.com ![The MIT License](https://img.shields.io/badge/license-MIT-ligh) ![Made by](https://img.shields.io/badge/made%20by-augustorl-important)
+
+En: This is the NextJS version of my portfolio.
+Pt: Essa é versão do meu portfólio construída com NextJs.
+
+<!-- ABOUT THE PROJECT -->
 ### About The Project
 
 I always loved and enjoyed everything about Pokemon, especially the Gameboy saga. So when I was looking for a project to learn a bit more about using Typescript with React, I remembered how I always loved playing those games.
