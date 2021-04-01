@@ -5,6 +5,7 @@ import { Context } from '../components/Wrapper';
 import SwiperCore, { Navigation, Pagination} from 'swiper';
 import "../../node_modules/swiper/swiper-bundle.css";
 import { FaGithub, FaGlobe } from 'react-icons/fa';
+
 import data from'../services/projectsdata.json';
 
 import {
