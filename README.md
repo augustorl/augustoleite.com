@@ -1,7 +1,9 @@
 # @augustoleite.com ![The MIT License](https://img.shields.io/badge/license-MIT-ligh) ![Made by](https://img.shields.io/badge/made%20by-augustorl-important)
 
-En: This is the NextJS version of my portfolio.
-Pt: Essa é versão do meu portfólio construída com NextJs.
+Essa é versão do meu portfólio construída com NextJs.
+
+
+This is the NextJS version of my portfolio.
 
 <!-- ABOUT THE PROJECT -->
 ### About The Project
