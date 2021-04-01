@@ -6,7 +6,7 @@ Projeto criado para servir como portfólio demonstrando meus mais recentes proje
 
 
 ### Versão Online:
-🖥 [augustoleite.com](https://augustoleite.com)
+[augustoleite.com](https://augustoleite.com)
 
 ### Teste no Google Lighthouse:
 ![Screenshot](Lighthouseportfolioteste.png)
