@@ -5,7 +5,7 @@ export const Nav = styled.div`
     width: 100%;
     max-width: 1220px;
     margin: 0 auto;
-    padding: 0 3rem;
+    padding: 0 2.5rem;
     display: flex;
     padding-top: 15px;
     &:hover {
@@ -110,7 +110,7 @@ export const HeaderPhoto = styled.div`
 export const HeaderText = styled.div`
    {
     z-index: 1;
-    margin-top: 130px;
+    margin-top: 115px;
     width: 100%;
     margin-left: -220px;
   }
@@ -196,7 +196,6 @@ export const SocialMedia = styled.div`
     flex-direction: row;
     justify-content: flex-end;
     max-width: 570px;
-    margin-top: 5px;
   }
 
     svg {
