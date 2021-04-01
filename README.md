@@ -4,6 +4,10 @@
 ### Sobre o Projeto
 Projeto criado para servir como portfólio demonstrando meus mais recentes projetos de maneira criativa. Utilizei o NextJS como biblioteca para otimizar a performance e obter resultados ainda melhores em relação a SEO, além disso o next me auxiliou a realizar na internacionalização do meu site sendo possível agora visualiza-lo também em inglês.
 
+
+### Versão Online:
+[@augustoleite.com](https://augustoleite.com)
+
 ### Construído com
 * [ReactJS](https://en.reactjs.org/)
 * [Javascript]()
