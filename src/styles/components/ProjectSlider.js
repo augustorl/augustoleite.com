@@ -171,8 +171,8 @@ export const TechImgs = styled.div`
     margin: 0;
     img,
     svg {
-      width: 30px;
-      height: 30px;
+      width: 25px;
+      height: 25px;
     }
   }
 `;
