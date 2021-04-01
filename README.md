@@ -9,8 +9,7 @@ Projeto criado para servir como portfólio demonstrando meus mais recentes proje
 🖥 [augustoleite.com](https://augustoleite.com)
 
 ### Teste no Google Lighthouse:
-![alt text](https://github.com/augustorl/portfolio-nextjs/blob/main/
-Lighthouseportfolioteste.png?raw=true)
+[teste no lighthouse](https://github.com/augustorl/portfolio-nextjs/blob/main/Lighthouseportfolioteste.png?raw=true)
 ### Construído com
 * [ReactJS](https://en.reactjs.org/)
 * [Javascript]()
