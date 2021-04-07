@@ -39,6 +39,7 @@ export const Details = styled.div`
   margin-top: 20px;
   margin-bottom: 10px;
   margin-right: 70px;
+  display: block;
   @media (max-width: 866px) {
     margin: 20px 15px 10px 15px;
     h2 {
@@ -49,7 +50,6 @@ export const Details = styled.div`
       font-size: 16px;
       word-wrap: none;
       line-height: 1.5;
-      margin-left: 15px;
     }
   }
   h2 {
@@ -121,9 +121,9 @@ export const ProjectLink = styled.div`
 
   @media (max-width: 866px) {
     margin: 10px 5px 5px 5px;
-    width: 120px;
-    border: none;
-    border-radius: none;
+    width: 130px;
+    padding: 3px;
+
     transition: none;
   }
 `;
@@ -138,10 +138,13 @@ export const Technologies = styled.div`
   margin-top: 15px;
   display: block;
   @media (max-width: 866px) {
-    margin-left: 15px;
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
+
+    h3 {
+      display: none;
+    }
   }
 
   h3 {
@@ -154,6 +157,7 @@ export const Technologies = styled.div`
 
 export const TechImgs = styled.div`
   display: flex;
+
   
   
   img,
@@ -168,7 +172,7 @@ export const TechImgs = styled.div`
     }
   }
   @media (max-width: 866px) {
-    margin: 0;
+    margin-top: 0;
     img,
     svg {
       width: 25px;
