@@ -1,6 +1,6 @@
 {
   "headerTitle": "Desenvolvedor Front-end",
-  "headerDescription": "Olá visitante, seja bem vindo ao meu portifólio! Sou um desenvolvedor front-end criativo, com mais de dois anos de experiência na criação de aplicações web completamente responsivas e escalonáveis. Construo meus projetos utilizando Javascript, sempre se atentando aos padrões e princípios essenciais da programação e arquitetura de software, como DRY, DDD e SOLID.",
+  "headerDescription": "Olá visitante, seja bem vindo ao meu portfólio! Sou um desenvolvedor front-end criativo, com mais de dois anos de experiência na criação de aplicações web completamente responsivas e escalonáveis. Construo meus projetos utilizando Javascript, sempre me atentando aos padrões e princípios essenciais da programação e arquitetura de software, como DRY, DDD e SOLID.",
   "namePlaceholder": "Nome",
   "messagePlaceholder": "Mensagem",
   "buttonContent": "Enviar",
@@ -11,5 +11,5 @@
   "swipperDemobadge": "Ver Site",
   "swipperCodebadge": "Ver Código",
   "swipperTechs": "Tecnologias:",
-  "curriculumLink": "http://augustoleite.com/curriculum_vitae.pdf"
+  "curriculumLink": "/files/curriculo.pdf"
 }
