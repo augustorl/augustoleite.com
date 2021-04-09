@@ -8,9 +8,9 @@ export const Context = createContext();
 
 const Wrapper = props => {
   const router = useRouter();
-  const { locale } = router;
+  const { locale, defaultLocale} = router;
 
-  const translation = locale === 'pt' ? Portugues : English;
+  const translation = locale === defaultLocale ? Portugues : English;
 
   function selectLanguage(e) {
     const newLocale = e.target.value;
