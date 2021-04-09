@@ -10,7 +10,7 @@ module.exports = {
         defaultLocale: 'en-US',
       },
       {
-        domain: 'augustoleite.com',
+        domain: 'augustoleite.com/pt',
         defaultLocale: 'pt-BR',
       },
     ],
