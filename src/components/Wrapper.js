@@ -10,7 +10,7 @@ const Wrapper = props => {
   const router = useRouter();
   const { locale } = router;
 
-  const translation = locale === 'pt-BR' ? Portugues : English;
+  const translation = locale === 'pt' ? Portugues : English;
 
   function selectLanguage(e) {
     const newLocale = e.target.value;

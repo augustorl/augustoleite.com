@@ -1,6 +1,17 @@
 module.exports = {
     i18n: {
-        locales: ['pt-BR', 'en-US'],
-        defaultLocale: 'pt-BR',
+        locales: ['pt', 'en'],
+        defaultLocale: 'pt',
+
+        domains: [
+            {
+              domain: 'augustoleite.com',
+              defaultLocale: 'pt',
+            },
+            {
+              domain: 'augustoleite.com/en',
+              defaultLocale: 'en',
+            },
+          ],
     }
 }
