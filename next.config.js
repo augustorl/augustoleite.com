@@ -8,10 +8,6 @@ module.exports = {
               domain: 'augustoleite.com',
               defaultLocale: 'pt',
             },
-            {
-              domain: 'augustoleite.com/en',
-              defaultLocale: 'en',
-            },
           ],
     }
 }
