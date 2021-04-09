@@ -29,7 +29,7 @@ export default function MyForm() {
             abortEarly: false,
         })
 
-        await api.post("/api/email", data);
+        // await api.post("/api/email", data);
 
         setMailIsSent(true);
         
@@ -97,9 +97,7 @@ export default function MyForm() {
                     >
                       {translatedText.buttonContent}
                     </button>
-                    {mailIsSent && (
-                        <p>Seu e-mail foi enviado com sucesso.</p>
-                      )}
+                    {mailIsSent && alert('Infelizmente os servidores de envio de e-mail parecem estar fora do ar, favor entrar em contato através do Linkedin.')}
                   </li>
                 </ul>
             </Form>
